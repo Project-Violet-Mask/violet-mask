@@ -1,4 +1,4 @@
-const myAccount: React.FC = () => {
+const MyAccount: React.FC = () => {
     return (
         <div>
             <h1>MyAccount</h1>
@@ -6,4 +6,4 @@ const myAccount: React.FC = () => {
     );
 };
 
-export default myAccount;
+export default MyAccount;
