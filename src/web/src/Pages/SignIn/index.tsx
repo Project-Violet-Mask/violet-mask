@@ -1,4 +1,4 @@
-const signIn: React.FC = () => {
+const SignIn: React.FC = () => {
     return (
         <div>
             <h1>SignIn</h1>
@@ -6,4 +6,4 @@ const signIn: React.FC = () => {
     );
 };
 
-export default signIn;
+export default SignIn;
