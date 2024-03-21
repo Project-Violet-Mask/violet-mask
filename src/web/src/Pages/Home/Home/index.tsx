@@ -1,8 +1,10 @@
+import Layout from "../../../Components/Layout";
+
 const Home: React.Fc = () => {
     return (
-       <div>
+       <Layout>
         <h1>Home</h1>
-       </div> 
+       </Layout>
     );
 };
 
