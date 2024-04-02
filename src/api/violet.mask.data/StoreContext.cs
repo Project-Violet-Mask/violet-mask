@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
-using Onyx.Drum.Domain.Catalog;
+using violet.mask.Domain.Catalog;
 
-namespace Onyx.Drum.Data;
+namespace violet.mask.Data;
 
 public class StoreContext : DbContext
 {
