@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using violet.mask.Domain.Catalog;
 
-namespace violet.mask.data;
+namespace violet.mask.Data;
 
 public static class DbInitializer
 {
