@@ -36,7 +36,9 @@ namespace violet.mask.Api.Controllers
         [HttpPost]
         public IActionResult CreateItem(Item item)
         {
-            return CreatedAtAction(nameof(GetItem), new { id = 42 }, item);
+            _context.Items.Add(item);
+            _context.SaveChanges();
+            return CreatedAtAction($"api/catalog/{item.Id}", item);
         }
 
         [HttpPost("{id:int}/ratings")]
