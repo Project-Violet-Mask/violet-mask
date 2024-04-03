@@ -12,7 +12,7 @@ namespace violet.mask.Api.Migrations
 {
     [DbContext(typeof(StoreContext))]
     [Migration("20240403011954_init")]
-    partial class init
+    partial class Init
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
